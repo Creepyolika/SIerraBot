@@ -1,0 +1,130 @@
+{
+    "commands":[    
+        {
+            "name" : "hello",
+            "args" : "",
+            "short_description" : "sas hello",
+            "detailed_description" : "used to check if the bot is still runing, or crashed"
+        },
+        {
+            "name" : "help",
+            "args" : "[page/command]",
+            "short_description" : "Displays help",
+            "detailed_description" : "Displays the correct page of the command list, or displays detailed info about the specified command"
+        },
+        {
+            "name" : "autoplay",
+            "args" : "[genre,..] [--a=<seed artist>,..] [--t=<seed track>,..]",
+            "short_description" : "plays random songs based on the given seeds",
+            "detailed_description" : "Only a maximum of 5 seed item will be taken account"
+        },
+        {
+            "name" : "clear",
+            "args" : "",
+            "short_description" : "clears the queue",
+            "detailed_description" : ""
+        },
+        {
+            "name" : "endloop",
+            "args" : "",
+            "short_description" : "stops looping the current song",
+            "detailed_description" : ""
+        },
+        {
+            "name" : "join",
+            "args" : "",
+            "short_description" : "joins to the voice channel",
+            "detailed_description" : ""
+        },
+        {
+            "name" : "leave",
+            "args" : "",
+            "short_description" : "leaves the voice channel",
+            "detailed_description" : ""
+        },
+        {
+            "name" : "loop",
+            "args" : "",
+            "short_description" : "Loops the current song",
+            "detailed_description" : ""
+        },
+        {
+            "name" : "play",
+            "args" : "<song>, [song]...",
+            "short_description" : "plays the specified song(s)",
+            "detailed_description" : "Accepts youtube link, and song name. If there is a previous search, the song list can be the number of the search result"
+        },
+        {
+            "name" : "playnow",
+            "args" : "<song>, [song]...",
+            "short_description" : "plays the specified song(s) before queue",
+            "detailed_description" : "Accepts youtube link, and song name. If there is a previous search, the song list can be the number of the search result. Skips the current song, appends the front of the queue"
+        },
+        {
+            "name" : "queue",
+            "args" : "[page]",
+            "short_description" : "displays the queue",
+            "detailed_description" : ""
+        },
+        {
+            "name" : "pause",
+            "args" : "",
+            "short_description" : "pauses the playing song",
+            "detailed_description" : ""
+        },
+        {
+            "name" : "remove",
+            "args" : "<number>",
+            "short_description" : "removes the specified element from the queue",
+            "detailed_description" : ""
+        },
+        {
+            "name" : "resume",
+            "args" : "",
+            "short_description" : "resumes the paused song",
+            "detailed_description" : ""
+        },
+        {
+            "name" : "search",
+            "args" : "<query>",
+            "short_description" : "searches for the specified youtube video",
+            "detailed_description" : "uses YouTube search"
+        },
+        {
+            "name" : "searchalbum",
+            "args" : "<query>",
+            "short_description" : "searches for the specified album",
+            "detailed_description" : "uses Spotify search"
+        },
+        {
+            "name" : "searchartist",
+            "args" : "<query>",
+            "short_description" : "searches for the specified artist",
+            "detailed_description" : "uses Spotify search"
+        },
+        {
+            "name" : "shuffle",
+            "args" : "",
+            "short_description" : "shuffles the playlist",
+            "detailed_description" : ""
+        },
+        {
+            "name" : "skip",
+            "args" : "",
+            "short_description" : "skips the playing song",
+            "detailed_description" : ""
+        },
+        {
+            "name" : "stop",
+            "args" : "",
+            "short_description" : "stops the music playing session",
+            "detailed_description" : "clears the queue, and leaves the voice channel"
+        },
+        {
+            "name" : "topsongs",
+            "args" : "<artist>",
+            "short_description" : "displays the top 10 song of the artist",
+            "detailed_description" : "if the previous search was for artists, the number of the result can be used"
+        }
+    ]
+}
